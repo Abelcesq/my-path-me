@@ -50,3 +50,19 @@
     msg.textContent = 'Thank you — you\'re on the path. (Connect this form to your email tool to go live.)';
     form.reset();
   });
+
+  // Offset the fixed nav below the Squarespace announcement bar so the banner
+  // never covers the brand or links. Adjusts on resize, when the bar wraps to
+  // multiple lines, and snaps back to the top (no gap) if a visitor closes it.
+  const announce = document.querySelector('.sqs-announcement-bar-dropzone, .sqs-announcement-bar');
+  const syncAnnounce = () => {
+    const h = announce ? announce.offsetHeight : 0;
+    nav.style.top = h + 'px';
+    document.documentElement.style.setProperty('--ab-h', h + 'px');
+  };
+  if(announce){
+    syncAnnounce();
+    if('ResizeObserver' in window){ new ResizeObserver(syncAnnounce).observe(announce); }
+    window.addEventListener('resize', syncAnnounce);
+    window.addEventListener('load', syncAnnounce);
+  }
