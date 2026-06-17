@@ -32,6 +32,8 @@
       </div>
     </header>
 
+    <main data-content-field="main-content">
+
     <!-- ============ HERO ============ -->
     <section class="hero" id="top">
       <!-- Splash background. Replace with your own footage by adding:
@@ -228,6 +230,8 @@
         </div>
       </div>
     </section>
+
+    </main>
 
     <!-- ============ FOOTER ============ -->
     <footer class="site">
