@@ -26,7 +26,7 @@
           <a href="#pillars">What You'll Discover</a>
           <a href="#author">The Author</a>
           <a href="#community">Community</a>
-          <a class="btn btn-primary" href="https://www.amazon.com/dp/B07P8WYMCC" target="_blank" rel="noopener">Read the Book</a>
+          <a class="btn btn-primary" href="https://www.amazon.com/dp/B07P8WYMCC?tag=mypathtome-20" target="_blank" rel="noopener">Read the Book</a>
         </nav>
         <button class="nav-toggle" id="navtoggle" aria-label="Menu"><span></span><span></span><span></span></button>
       </div>
@@ -50,7 +50,7 @@
             <h1>Spirituality, happiness, and eternal bliss <em>start with you.</em></h1>
             <p class="sub">My Path to Me unites spirituality, love, and personal development through one quiet discovery: the relationship you have with yourself.</p>
             <div class="hero-cta">
-              <a class="btn btn-primary" href="https://www.amazon.com/dp/B07P8WYMCC" target="_blank" rel="noopener">Read on Amazon →</a>
+              <a class="btn btn-primary" href="https://www.amazon.com/dp/B07P8WYMCC?tag=mypathtome-20" target="_blank" rel="noopener">Read on Amazon →</a>
               <a class="btn btn-ghost" href="#pillars">Begin the journey</a>
             </div>
             <div class="hero-meta">
@@ -226,7 +226,7 @@
         <div class="msg" id="signupmsg" role="status"></div>
         <p class="privacy">We will not distribute, sell, or share your information without your written consent. · info@abelcalderon.com</p>
         <div style="margin-top:2.2rem">
-          <a class="btn btn-ghost" href="https://www.amazon.com/dp/B07P8WYMCC" target="_blank" rel="noopener">Read My Path to Me on Amazon →</a>
+          <a class="btn btn-ghost" href="https://www.amazon.com/dp/B07P8WYMCC?tag=mypathtome-20" target="_blank" rel="noopener">Read My Path to Me on Amazon →</a>
         </div>
       </div>
     </section>
@@ -251,7 +251,7 @@
             </div>
             <div class="foot-col">
               <h4>Read &amp; Connect</h4>
-              <a href="https://www.amazon.com/dp/B07P8WYMCC" target="_blank" rel="noopener">Buy on Amazon</a>
+              <a href="https://www.amazon.com/dp/B07P8WYMCC?tag=mypathtome-20" target="_blank" rel="noopener">Buy on Amazon</a>
               <a href="https://www.facebook.com/mypathtome" target="_blank" rel="noopener">Facebook</a>
               <a href="https://www.instagram.com/mypathtomebook" target="_blank" rel="noopener">Instagram</a>
               <a href="https://www.facebook.com/groups/368267653761131/" target="_blank" rel="noopener">Community Group</a>
@@ -265,6 +265,7 @@
         <div class="foot-bottom">
           <span>My Path to Me © 2019 Abel Calderón, Jr. · ISBN 978-0-578-43244-1 · Website © <span id="yr"></span>.</span>
           <span>A journey of self-discovery.</span>
+          <span style="flex-basis:100%;opacity:.7">As an Amazon Associate I earn from qualifying purchases.</span>
         </div>
       </div>
     </footer>
